@@ -3,6 +3,7 @@ https://leetcode.com/nosensus/
 
 |Problem|Runtime(%)|Memory(%)|
 |--|--|--|
+|334.  [Increasing Triplet Subsequence](Medium/IncreasingTripletSubsequence/Program.cs) <sup>Medium<sup>|||
 |238.  [Product of Array Except Self](Medium/ProductOfArrayExceptSelf/Program.cs) <sup>Medium<sup>|71.92|66.66|
 |151.  [Reverse Words in a String](Medium/ReverseWordsInAString/Program.cs) <sup>Medium<sup>|69.62|13.77|
 |345.  [Reverse Vowels of a String](Easy/ReverseVowelsOfAString/Program.cs) <sup>Easy<sup>|76.59|47.69|
