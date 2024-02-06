@@ -1,20 +1,24 @@
-﻿public class Solution {
+﻿public class Solution
+{
     public string ReverseWords(string s)
     {
         string[] stringArray = s.Trim().Split(" ");
-        Array.Reverse(stringArray, 0, stringArray.Length);
-        string newOne = "";
+        Stack<string> temp = new Stack<string>();
         foreach (string str in stringArray)
         {
-            if (str == "")
-            {
-                continue;
-            }
-
-            newOne += str + " ";
- 
+            temp.Push(str);
         }
-        
-        return newOne.Trim();
+
+        string temp2 = "";
+        while (temp.Count != 0)
+        {
+            var element = temp.Pop();
+            if (element != "")
+            {
+                temp2 += element + " ";
+            }
+        }
+
+        return temp2.Trim();
     }
 }
