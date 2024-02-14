@@ -3,6 +3,7 @@ https://leetcode.com/nosensus/
 
 |Problem|Runtime(%)|Memory(%)|
 |--|--|--|
+|283.  [Move Zeroes](Easy/MoveZeroes/Program.cs) <sup>Easy<sup>|64.57|66.49|
 |2108.  [Find First Palindromic String in the Array](Easy/FindFirstPalindromicStringInTheArray/Program.cs) <sup>Easy<sup>|55.56|76.07|
 |443. (In Progress) [String Compression](Medium/StringCompression/Program.cs) <sup>Medium<sup>|||
 |334.  [Increasing Triplet Subsequence](Medium/IncreasingTripletSubsequence/Program.cs) <sup>Medium<sup>|22.25|32.07|
