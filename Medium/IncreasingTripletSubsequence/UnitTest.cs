@@ -12,6 +12,12 @@ public class UnitTest
         yield return new TestCaseData(new object[] {new[] {5, 4, 3, 2, 1}}).Returns(false);
         yield return new TestCaseData(new object[] {new[] {2, 1, 5, 0, 4, 6}}).Returns(true);
         yield return new TestCaseData(new object[] {new[] {20, 100, 10, 12, 5, 13}}).Returns(true);
+<<<<<<< HEAD
+=======
+        yield return new TestCaseData(new object[] {new[] {1, 2, 1, 3}}).Returns(true);
+        yield return new TestCaseData(new object[] {new[] {1, 2, 2147483647}}).Returns(true);
+        yield return new TestCaseData(new object[] {new[] {6, 7, 1, 2}}).Returns(false);
+>>>>>>> 81a9b9454ddd590349300c9d96f0790d1e96b8c9
     }
 
     [TestCaseSource(nameof(Cases))]
