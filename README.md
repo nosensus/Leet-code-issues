@@ -3,6 +3,7 @@ https://leetcode.com/nosensus/
 
 |Problem|Runtime(%)|Memory(%)|
 |--|--|--|
+|268.  [Missing Number](Easy/MissingNumber/Program.cs) <sup>Easy<sup>|93.62|10.15|
 |1732.  [Find the Highest Altitude](Easy/FindTheHighestAltitude/Program.cs) <sup>Easy<sup>|81.78|37.69|
 |283.  [Move Zeroes](Easy/MoveZeroes/Program.cs) <sup>Easy<sup>|64.57|66.49|
 |2108.  [Find First Palindromic String in the Array](Easy/FindFirstPalindromicStringInTheArray/Program.cs) <sup>Easy<sup>|55.56|76.07|
