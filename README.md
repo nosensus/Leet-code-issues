@@ -3,6 +3,7 @@ https://leetcode.com/nosensus/
 
 |Problem|Runtime(%)|Memory(%)|
 |--|--|--|
+|643.  [Maximum Average Subarray I](Easy/MaximumAverageSubarrayI/Program.cs) <sup>Easy<sup>|5.12|5.43|
 |392.  [Is Subsequence](Easy/IsSubsequence/Program.cs) <sup>Easy<sup>|54.77|10.55|
 |268.  [Missing Number](Easy/MissingNumber/Program.cs) <sup>Easy<sup>|93.62|10.15|
 |1732.  [Find the Highest Altitude](Easy/FindTheHighestAltitude/Program.cs) <sup>Easy<sup>|81.78|37.69|
