@@ -2,7 +2,7 @@
 
 public class Solution
 {
-    private int depthLevel = -1;
+    private int height = -1;
     private int leftLeaf = -1;
 
     public int FindBottomLeftValue(TreeNode root)
@@ -15,10 +15,10 @@ public class Solution
     {
         if (root == null) return;
 
-        if (level > depthLevel)
+        if (level > height)
         {
             leftLeaf = root.val;
-            depthLevel = level;
+            height = level;
         }
 
         DFS(root.left, level + 1);
