@@ -1,24 +1,27 @@
-﻿
-using FindBottomLeftTreeValue;
+﻿using FindBottomLeftTreeValue;
 
-public class Solution {
+public class Solution
+{
+    private int depthLevel = -1;
+    private int leftLeaf = -1;
+
     public int FindBottomLeftValue(TreeNode root)
     {
-        int leftMostValue = root.val;
+        DFS(root, 0);
+        return leftLeaf;
+    }
 
-        if (root != null)
+    private void DFS(TreeNode root, int level)
+    {
+        if (root == null) return;
+
+        if (level > depthLevel)
         {
-
-            var leftNode = root.left.val;
-            if (leftNode != null)
-            {
-                leftMostValue = leftNode;
-            }
-
-
-            FindBottomLeftValue(root.left) && FindBottomLeftValue(root.right);
+            leftLeaf = root.val;
+            depthLevel = level;
         }
 
-        return leftMostValue;
+        DFS(root.left, level + 1);
+        DFS(root.right, level + 1);
     }
 }
