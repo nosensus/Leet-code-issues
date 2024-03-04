@@ -16,6 +16,6 @@ public class UnitTests
     [TestCaseSource(nameof(Cases))]
     public int[] ReturnsSquaresOfEachNumberInAnArraySortedInNonDecreasingOrder(int[] nums)
     {
-        return new Solution().SortedSquares(nums);
+        return Solution.SortedSquares(nums);
     }
 }
