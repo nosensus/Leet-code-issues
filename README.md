@@ -17,7 +17,7 @@ https://leetcode.com/nosensus/
 |513.  (In Progress) [Find Bottom Left Tree Value](Medium/FindBottomLeftTreeValue/Program.cs) <sup>Medium<sup>|||
 |605.  [Can Place Flowers](Easy/CanPlaceFlowers/Program.cs) <sup>Easy<sup>|27.57|13.00|
 |643.  [Maximum Average Subarray I](Easy/MaximumAverageSubarrayI/Program.cs) <sup>Easy<sup>|5.12|5.43|
-|977.  [Squares of a Sorted Array](Easy/SquaresOfASortedArray/Program.cs) <sup>Easy<sup>|15.01|11.61|
+|977.  [Squares of a Sorted Array](Easy/SquaresOfASortedArray/Program.cs) <sup>Easy<sup>|82.95|61.30|
 |1071. [Greatest Common Divisor of Strings](Easy/GreatestCommonDivisorOfStrings/Program.cs) <sup>Easy<sup>| 56.46 | 45.60 |
 |1431. [Kids With the Greatest Number of Candies](Easy/KidsWithTheGreatestNumberOfCandies/Program.cs) <sup>Easy<sup>|39.48|58.24|
 |1732. [Find the Highest Altitude](Easy/FindTheHighestAltitude/Program.cs) <sup>Easy<sup>|81.78|37.69|

@@ -5,7 +5,8 @@
     {
         int leftPointer = 0;
         int rightPointer = nums.Length - 1;
-        List<int> result = new List<int>();
+        int[] result = new int[nums.Length];
+        int index = nums.Length - 1;
 
         while (leftPointer <= rightPointer)
         {
@@ -13,16 +14,18 @@
             int right = nums[rightPointer] * nums[rightPointer];
             if (left > right)
             {
-                result.Insert(0, left);
+                result[index] = left;
+                index--;
                 leftPointer++;
                 continue;
             }
 
-            result.Insert(0, right);
+            result[index] = right;
+            index--;
             rightPointer--;
         }
 
-        return result.ToArray();
+        return result;
     }
 
     // used native methods
