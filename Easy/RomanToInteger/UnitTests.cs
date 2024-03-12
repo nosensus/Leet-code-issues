@@ -10,6 +10,7 @@ public class UnitTests
         yield return new TestCaseData("III").Returns(3);
         yield return new TestCaseData("LVIII").Returns(58);
         yield return new TestCaseData("MCMXCIV").Returns(1994);
+        yield return new TestCaseData("DCXXI").Returns(621);
     }
 
     [TestCaseSource(nameof(Cases))]

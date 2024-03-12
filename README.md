@@ -4,7 +4,8 @@ https://leetcode.com/nosensus/
 |Problem|Runtime(%)|Memory(%)|
 |--|--|--|
 |1.    [Two Sum](Medium/TwoSum/Program.cs) <sup>Easy<sup>|28.28|82.06|
-|9.    [Palindrome Number](Easy/PalindromeNumber/Program.cs)|11.58|53.51|
+|9.    [Palindrome Number](Easy/PalindromeNumber/Program.cs) <sup>Easy<sup>|11.58|53.51|
+|13.   [Roman to Integer](Easy/RomanToInteger/Program.cs) <sup>Easy<sup>|5.19|5.20|
 |100.  [Same Tree](Easy/SameTree/Program.cs) <sup>Easy<sup>|27.90|93.74|
 |150.  [Evaluate Reverse Polish Notation](Medium/EvaluateReversePolishNotation/Program.cs) <sup>Medium<sup>|32.87|11.78|
 |151.  [Reverse Words in a String](Medium/ReverseWordsInAString/Program.cs) <sup>Medium<sup>|69.62|13.77|
