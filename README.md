@@ -26,3 +26,4 @@ https://leetcode.com/nosensus/
 |1768. [Merge Strings Alternately](Easy/MergeStringsAlternately/Program.cs) <sup>Easy<sup>| 42.32 | 28.42 |
 |2108. [Find First Palindromic String in the Array](Easy/FindFirstPalindromicStringInTheArray/Program.cs) <sup>Easy<sup>|55.56|76.07|
 |2215. [Find the Difference of Two Arrays](Easy/FindTheDifferenceOfTwoArrays/Program.cs) <sup>Easy<sup>|11.60|91.05|
+|2485. [Find the Pivot Integer](Easy/FindThePivotInteger/Program.cs) <sup>Easy<sup>|98.78|47.73|
